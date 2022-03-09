@@ -1,20 +1,20 @@
-﻿decimal result = 0; //результат падает сюда
+﻿double result = 0; //результат падает сюда
 string[] act = { "+", "-", "/", "*" };
 string value;
 bool msgerror;
 Console.WriteLine("Введите первое число : ");
-msgerror = decimal.TryParse(Console.ReadLine(), out decimal a);
+msgerror = double.TryParse(Console.ReadLine(), out double a);
     while (!msgerror)
         {
           Console.WriteLine("Неверно введено первое число, повторите : ");
-          msgerror = decimal.TryParse(Console.ReadLine(), out a);
+          msgerror = double.TryParse(Console.ReadLine(), out a);
         }
  Console.WriteLine("Введите второе число : ");
- msgerror = decimal.TryParse(Console.ReadLine(), out decimal b);
+ msgerror = double.TryParse(Console.ReadLine(), out double b);
     while (!msgerror)
         {
           Console.WriteLine("Неверно введено второе число, повторите : ");
-          msgerror = decimal.TryParse(Console.ReadLine(), out b);
+          msgerror = double.TryParse(Console.ReadLine(), out b);
         }
 Console.WriteLine("Введите действие, где '*' - умножение, '/' - деление, '-' - вычитание, '+' - сложение :");
 msgerror = act.Contains(value = Console.ReadLine());
@@ -31,11 +31,11 @@ switch (value) {
             while (b == 0)
             {
                 Console.WriteLine("Вы пытаетесь поделить на ноль, введите другое число : ");
-                msgerror = decimal.TryParse(Console.ReadLine(), out b);
+                msgerror = double.TryParse(Console.ReadLine(), out b);
                 while (!msgerror)
                 {
                     Console.WriteLine("Неверно введено второе число, повторите : ");
-                    msgerror = decimal.TryParse(Console.ReadLine(), out b);
+                    msgerror = double.TryParse(Console.ReadLine(), out b);
                 }
             }
             result = a / b;
