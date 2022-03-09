@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\Programmers\\NoobCoders_Lessons\\Lesson_1\\Lesson_1.csproj",
+      "projectUniqueName": "K:\\GitEsense\\NoobCoders_Lessons\\Lesson_1\\Lesson_1.csproj",
       "projectName": "Lesson_1",
-      "projectPath": "K:\\Programmers\\NoobCoders_Lessons\\Lesson_1\\Lesson_1.csproj",
+      "projectPath": "K:\\GitEsense\\NoobCoders_Lessons\\Lesson_1\\Lesson_1.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "K:\\Programmers\\NoobCoders_Lessons\\Lesson_1\\obj\\",
+      "outputPath": "K:\\GitEsense\\NoobCoders_Lessons\\Lesson_1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
